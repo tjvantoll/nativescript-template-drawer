@@ -1,0 +1,19 @@
+﻿action-bar {
+  background-color: #053140;
+  color: white;
+}
+label {
+  margin: 20;
+}
+.drawer-content {
+  background-color: #053140;
+  color: white;
+  padding-top: 20;
+}
+.drawer-content label {
+  font-size: 20;
+  margin: 10 0 15 25;
+}
+.selected {
+  color: #e4ba4e;
+}

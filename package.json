@@ -1,0 +1,16 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.nativescripttemplatedrawer",
+    "tns-ios": {
+      "version": "1.6.0"
+    },
+    "tns-android": {
+      "version": "1.6.1"
+    }
+  },
+  "dependencies": {
+    "nativescript-statusbar": "^1.0.0",
+    "nativescript-telerik-ui": "^0.2.4",
+    "tns-core-modules": "1.6.0"
+  }
+}

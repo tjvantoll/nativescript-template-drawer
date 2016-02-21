@@ -1,0 +1,35 @@
+<page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+  xmlns:widgets="shared/widgets"
+  loaded="loaded"
+  navigatedTo="navigatedTo"
+  backgroundColor="{{ blackBackground ? 'black' : 'white' }}">
+
+  <page.actionBar>
+    <action-bar title="Settings">
+      <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+      <action-bar.actionItems>
+        <ios>
+          <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+      </action-bar.actionItems>
+    </action-bar>
+  </page.actionBar>
+
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Settings page content -->
+      <grid-layout columns="3*, *" rows="100, *">
+        <label text="Use a black background?" color="{{ blackBackground ? 'white' : 'black' }}" textWrap="true" col="0" row="0" />
+        <switch checked="{{ blackBackground }}" col="1" row="0" />
+      </grid-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>
