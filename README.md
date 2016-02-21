@@ -10,5 +10,8 @@ A quick-and-dirty template for starting a new [NativeScript](https://www.natives
 
 ![](http://i.imgur.com/i5Qm4Xh.png)
 ![](http://i.imgur.com/sneoZhC.png)
+
+---
+
 ![](http://i.imgur.com/ktJtT0y.png)
 ![](http://i.imgur.com/6Kha8WY.png)
