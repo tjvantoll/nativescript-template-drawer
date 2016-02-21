@@ -4,4 +4,4 @@ A quick-and-dirty template for starting a new [NativeScript](https://www.natives
 
 ## Usage
 
-`tns create my-project-name --template tjvantoll/nativescript-template-drawer`
+`tns create my-project-name --template nativescript-template-drawer`

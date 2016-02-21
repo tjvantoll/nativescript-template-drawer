@@ -1,4 +1,6 @@
 {
+  "name": "nativescript-template-drawer",
+  "version": "1.0.0",
   "nativescript": {
     "id": "org.nativescript.nativescripttemplatedrawer",
     "tns-ios": {
