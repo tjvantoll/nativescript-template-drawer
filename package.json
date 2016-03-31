@@ -1,7 +1,7 @@
 {
   "name": "nativescript-template-drawer",
   "main": "app.js",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "TJ VanToll <tj.vantoll@gmail.com>",
   "description": "A NativeScript starter template with drawer navigation",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "homepage": "https://github.com/tjvantoll/nativescript-template-drawer",
   "dependencies": {
     "nativescript-statusbar": "^1.0.0",
-    "nativescript-telerik-ui": "^0.2.4",
-    "tns-core-modules": "1.6.0"
+    "nativescript-telerik-ui": "^1.0.0",
+    "tns-core-modules": "1.7.0"
   }
 }
