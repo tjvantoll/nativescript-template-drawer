@@ -2,7 +2,7 @@
   xmlns="http://schemas.nativescript.org/tns.xsd"
   xmlns:drawer="nativescript-telerik-ui/sidedrawer"
   xmlns:widgets="shared/widgets"
-  loaded="loaded">
+  loaded="pageLoaded">
 
   <page.actionBar>
     <action-bar title="About">

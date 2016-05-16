@@ -6,7 +6,7 @@ appViewModel.selectedPage = "home";
 
 function BasePage() {}
 BasePage.prototype.viewModel = appViewModel
-BasePage.prototype.loaded = function(args) {
+BasePage.prototype.pageLoaded = function(args) {
   var page = args.object;
   page.bindingContext = appViewModel;
 }
