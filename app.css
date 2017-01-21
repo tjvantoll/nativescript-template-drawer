@@ -9,6 +9,7 @@ label {
   background-color: #053140;
   color: white;
   padding-top: 20;
+  font-family: 'FontAwesome';
 }
 .drawer-content label {
   font-size: 20;
