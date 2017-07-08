@@ -1,4 +1,6 @@
-﻿action-bar {
+﻿@import 'nativescript-theme-core/css/core.light.css';
+
+action-bar {
   background-color: #053140;
   color: white;
 }
